@@ -608,10 +608,13 @@ video {
   padding-right: 1.5rem;
 }
 
-a {
+body {
   --text-opacity: 1;
-  color: #21183c;
-  color: rgba(33, 24, 60, var(--text-opacity));
+  color: #4a5568;
+  color: rgba(74, 85, 104, var(--text-opacity));
+}
+
+a {
   text-decoration: none;
   transition-property: all;
   transition-duration: 300ms;
@@ -620,13 +623,15 @@ a {
 
 a:not([class]) {
   border-bottom-width: 2px;
-  border-color: #eb5286;
+  --border-opacity: 1;
+  border-color: #4299e1;
+  border-color: rgba(66, 153, 225, var(--border-opacity));
 }
 
 a:not([class]):hover {
   --text-opacity: 1;
-  color: #eb5286;
-  color: rgba(235, 82, 134, var(--text-opacity));
+  color: #4299e1;
+  color: rgba(66, 153, 225, var(--text-opacity));
 }
 
 h1, h2, h3 {
@@ -634,9 +639,6 @@ h1, h2, h3 {
   line-height: 1.25;
   margin-top: 0;
   margin-bottom: 1.5rem;
-  --text-opacity: 1;
-  color: #21183c;
-  color: rgba(33, 24, 60, var(--text-opacity));
 }
 
 .page-title {
@@ -22118,6 +22120,30 @@ h1, h2, h3 {
 .animate-bounce{
   -webkit-animation: bounce 1s infinite;
           animation: bounce 1s infinite;
+}
+
+/* HERO SECTION */
+
+#hero {
+  height: 30rem;
+}
+
+#hero .hero-wrapper {
+  background-image: linear-gradient(to top, rgba(0, 0, 15, 0.15), rgba(0, 0, 15, 0.15)), url("/images/home/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+#hero .hero-title::after {
+  display: block;
+  width: 3rem;
+  --border-opacity: 1;
+  border-color: #4299e1;
+  border-color: rgba(66, 153, 225, var(--border-opacity));
+  border-bottom-width: 4px;
+  padding-top: 1.5rem;
+  content: "";
 }
 
 @media (min-width: 640px){

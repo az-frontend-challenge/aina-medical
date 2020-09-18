@@ -16,5 +16,23 @@
             "label": "Contact",
             "url": "/contact/"
         }
+    ],
+    "aina_main": [
+        {
+            "label": "Home",
+            "url": "/"
+        },
+        {
+            "label": "Doctors",
+            "url": "#"
+        },
+        {
+            "label": "Blog",
+            "url": "#"
+        },
+        {
+            "label": "Elements",
+            "url": "#"
+        }
     ]
 }
