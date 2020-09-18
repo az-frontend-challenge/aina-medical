@@ -21,5 +21,8 @@
 // TailwindCSS recommends leaving utilities till last to ensure they aren't overwritten.
 @tailwind utilities;
 
+//* Some vendors
+@import "vendors/feather-icons";
+
 //* HOME PAGE
 @import 'home/home';

@@ -274,8 +274,8 @@ var $$ = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/radan/Projects/web-static/aina-medical/resources/js/main.js */"./resources/js/main.js");
-module.exports = __webpack_require__(/*! /home/radan/Projects/web-static/aina-medical/resources/sass/main.scss */"./resources/sass/main.scss");
+__webpack_require__(/*! /home/radan/Projects/web-static/A-Z-CHALLENGE/aina-medical/resources/js/main.js */"./resources/js/main.js");
+module.exports = __webpack_require__(/*! /home/radan/Projects/web-static/A-Z-CHALLENGE/aina-medical/resources/sass/main.scss */"./resources/sass/main.scss");
 
 
 /***/ })
