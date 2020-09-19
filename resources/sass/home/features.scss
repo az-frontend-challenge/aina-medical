@@ -1,0 +1,7 @@
+#features {
+    .heading-line {
+        &::after {
+            @apply mx-auto;
+        }
+    }
+}

@@ -643,6 +643,9 @@ h1, h2, h3 {
   line-height: 1.25;
   margin-top: 0;
   margin-bottom: 1.5rem;
+  --text-opacity: 1;
+  color: #2d3748;
+  color: rgba(45, 55, 72, var(--text-opacity));
 }
 
 .page-title {
@@ -23396,10 +23399,23 @@ h1, h2, h3 {
 
 /* STATS SECTION */
 
+#stats {
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+}
+
 #stats .heading-line::after {
   margin-left: auto;
   margin-right: auto;
   padding-top: 0.5rem;
+}
+
+/* FEATURES SECTION */
+
+#features .heading-line::after {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (min-width: 640px){

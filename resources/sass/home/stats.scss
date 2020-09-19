@@ -1,4 +1,6 @@
 #stats {
+    @apply text-white;
+
     .heading-line::after{
         @apply mx-auto pt-2;
     }
