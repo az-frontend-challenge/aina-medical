@@ -11,10 +11,10 @@
         @apply bg-cover bg-center h-full;
     }
 
-    .hero-title {
-        &::after {
-            @apply block w-12 border-blue-500 border-b-4 pt-6;
-            content: "";
-        }
-    }
+    // .hero-title {
+    //     &::after {
+    //         @apply block w-12 border-blue-500 border-b-4 pt-6;
+    //         content: " ";
+    //     }
+    // }
 }

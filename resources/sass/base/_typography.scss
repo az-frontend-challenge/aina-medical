@@ -27,3 +27,10 @@ h1, h2, h3 {
 		}
     }
 }
+
+.heading-line {
+	&::after {
+		@apply block w-12 border-blue-500 border-b-4 pt-6;
+		content: " ";
+	}
+}

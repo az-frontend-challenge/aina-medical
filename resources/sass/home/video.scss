@@ -1,0 +1,30 @@
+#video {
+    .footage {
+        //! TODO: update this selector
+        height: 22rem !important;
+        img {
+            height: inherit;
+        }
+        
+        &:hover {
+            .control-play {
+                @apply transition-all duration-300 ease-in-out;
+                width: 6.75rem;
+                height: 6.75rem;
+                i {
+                    @apply transition-all duration-300 ease-in-out;
+                    @apply text-5xl;
+                }
+            }
+        }
+        .control-play {
+            @apply h-24 w-24;
+            @apply transition-all duration-300 ease-in-out;
+            i {
+                @apply transition-all duration-300 ease-in-out;
+                @apply text-4xl;
+            }
+        }
+
+    }
+}
