@@ -1,0 +1,5 @@
+#stats {
+    .heading-line::after{
+        @apply mx-auto pt-2;
+    }
+}
