@@ -23418,6 +23418,26 @@ h1, h2, h3 {
   margin-right: auto;
 }
 
+/* LABORATORY SECTION */
+
+#laboratory .lab-img {
+  height: 30rem;
+}
+
+#laboratory .lab-text {
+  background-color: #36C190;
+}
+
+#laboratory .lab-text .heading-line::after {
+  --border-opacity: 1;
+  border-color: #3182ce;
+  border-color: rgba(49, 130, 206, var(--border-opacity));
+}
+
+#laboratory .lab-row:nth-child(2) {
+  min-height: 30rem;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;

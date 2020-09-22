@@ -1,0 +1,17 @@
+#laboratory {
+    .lab-img {
+        height: 30rem;
+    }
+
+    .lab-text {
+        background-color: #36C190;
+
+        .heading-line::after {
+            @apply border-blue-600;
+        }
+    }
+
+    .lab-row:nth-child(2) {
+        min-height: 30rem;
+    }
+}

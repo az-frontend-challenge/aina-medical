@@ -1,0 +1,14 @@
+<div class="ml-20">
+{% for item in home.labStats %}
+    <div class="mb-8">
+        <div class="flex justify-between">
+            <h3 class="progress-title mb-2 uppercase text-sm tracking-wider font-display font-semibold">{{ item.title }}</h3>
+            <p class="progress-percent mb-2 uppercase text-sm tracking-wider font-display font-semibold">{{ item.percent }}%</p>
+        </div>
+        <div class="h-2 rounded-full overflow-hidden flex">
+            <div class="bg-blue-500" style="width:{{ item.percent }}%"></div>
+            <div class="bg-gray-300" style="width:{{ 100 - item.percent }}%"></div>
+        </div> 
+    </div>
+{% endfor %}
+</div>
