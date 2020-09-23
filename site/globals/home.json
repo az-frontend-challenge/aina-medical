@@ -16,5 +16,27 @@
             "title": "antemoain loange",
             "percent": "64"
         }
+    ],
+    "team": [
+        {
+            "name": "Salvador Hamir",
+            "picture": "/images/home/feature-1.jpg",
+            "speciality": "Cardiac Surgery"
+        },
+        {
+            "name": "Mariana Cole",
+            "picture": "/images/home/feature-2.jpg",
+            "speciality": "Gynaecology"
+        },
+        {
+            "name": "Epiphany juliet",
+            "picture": "/images/home/feature-3.jpg",
+            "speciality": "Cardiology"
+        },
+        {
+            "name": "Patrick Dumb",
+            "picture": "/images/home/feature-4.jpg",
+            "speciality": "Dietetics"
+        }
     ]
 }

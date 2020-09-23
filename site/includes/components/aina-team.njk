@@ -1,0 +1,7 @@
+{% import 'components/aina-team-member.njk' as member %}
+
+<div class="flex mx-24">
+{% for item in home.team %}
+    {{ member.doctor(item.name, item.picture, item.speciality) }}
+{% endfor %}
+</div>
