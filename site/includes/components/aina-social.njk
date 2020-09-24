@@ -1,0 +1,10 @@
+{% macro tweet(identifier, text, border = "border-b") %}
+<div class="flex pb-4 {{ border}} border-gray-800 mb-6">
+    <div>
+        <i class="feather icon-twitter text-blue-500"></i>
+    </div>
+    <div>
+        <p class="text-sm ml-5 leading-relaxed"><a class="text-gray-500 hover:text-blue-500" href="#">{{ identifier }}</a> {{ text }}</p>
+    </div>
+</div>
+{% endmacro %}
