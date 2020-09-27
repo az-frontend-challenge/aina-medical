@@ -1,15 +1,15 @@
 <section id="laboratory">
     {# first row #}
     <div class="lab-row">
-        <div class="flex">
-            <div class="w-1/2">
+        <div class="lg:flex items-stretch">
+            <div class="lg:w-1/2">
                 <div class="lab-img">
-                    <img class="h-full w-auto" src="/images/home/laboratory.jpg" alt="laboratory">
+                    {# <img class="w-full h-auto" src="/images/home/laboratory.jpg" alt="laboratory"> #}
                 </div>
             </div>
-            <div class="lab-text w-1/2 flex flex-col justify-center">
-                <div class="text-gray-100">
-                    <div class="ml-24 mr-48">
+            <div class="lab-text lg:w-1/2 flex flex-col justify-center">
+                <div class="text-gray-100 mt-8 lg:mt-0 mb-12">
+                    <div class="ml-24 mr-40">
                         <h2 class="heading-line text-4xl leading-tight font-regular mb-8 text-white">Best laboratory Analysis Available</h2>
                         <h3 class="uppercase text-sm tracking-wider font-display font-semibold text-gray-100">{# TODO: an icon should be placed here #}MAZIM PLACERAT FACER POSSIM</h3>
                         <p class="mb-8">Exerci tation ul lamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat duis autem vel eum iriure augue duis dolore.</p>
@@ -21,14 +21,14 @@
     </div>
     {# second row #}
     <div class="lab-row bg-gray-100 flex flex-col justify-center">
-        <div class="flex mx-32">
-            <div class="w-1/2">
-                <div class="pr-20">
+        <div class="lg:flex mx-10 sm:mx-16 md:mx-24 lg:mx-32">
+            <div class="lg:w-1/2">
+                <div class="lg:pr-20 mt-10 lg:mt-0 mb-16">
                     <h2 class="heading-line text-4xl leading-tight font-regular mb-8">Laboratory Place In Medical Practice</h2>
                     <p class="mb-8">Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo non habent claritatem insitam consequat duis autem facilisis at vero eros nibh euismod tincid unt.</p>
                 </div>
             </div>
-            <div class="w-1/2">
+            <div class="lg:w-1/2">
                 {% include 'components/aina-lab-stats.njk' %}
             </div>
         </div>

@@ -1,9 +1,10 @@
 #services {
-    &>div {
+    &>div>div {
         border-radius: 0.725rem;
     }
     .service-item {
         @apply px-6 pt-16 pb-3 text-center text-white;
+        // min-width: 22rem;
         background-color: #36C190;
 
         &:nth-child(even) {
@@ -45,3 +46,10 @@
         }
     }
 }
+
+/* Extra Large (xl) */
+// @media (min-width: 1440px) { 
+//     .service-item {
+//         width: 22rem;
+//     }
+// }

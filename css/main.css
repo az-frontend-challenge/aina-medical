@@ -710,9 +710,9 @@ h1, h2, h3 {
   }
 }
 
-@media (min-width: 1280px){
+@media (min-width: 1440px){
   .container{
-    max-width: 1280px;
+    max-width: 1440px;
   }
 }
 
@@ -23256,20 +23256,46 @@ h1, h2, h3 {
 
 /* HERO SECTION */
 
-#hero {
-  height: 30rem;
+#hero .heading-line::after {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #hero .hero-wrapper {
+  height: 30rem;
+}
+
+#hero .hero-wrapper > div {
   background-image: linear-gradient(to top, rgba(0, 0, 15, 0.15), rgba(0, 0, 15, 0.15)), url("/images/home/hero.jpg");
   background-size: cover;
   background-position: center;
   height: 100%;
 }
 
+/* Small (sm) */
+
+/* Medium (md) */
+
+@media (min-width: 768px) {
+  #hero .heading-line::after {
+    margin-left: 0;
+  }
+}
+
+/* Large (lg) */
+
+/* Extra Large (xl) */
+
+@media (min-width: 1440px) {
+  #hero .heading-line::after {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 /* SERVICES SECTION */
 
-#services > div {
+#services > div > div {
   border-radius: 0.725rem;
 }
 
@@ -23357,15 +23383,9 @@ h1, h2, h3 {
   border-color: rgba(203, 213, 224, var(--border-opacity));
 }
 
+/* Extra Large (xl) */
+
 /* VIDEO SECTION */
-
-#video .footage {
-  height: 22rem !important;
-}
-
-#video .footage img {
-  height: inherit;
-}
 
 #video .footage:hover .control-play {
   transition-property: all;
@@ -23422,6 +23442,10 @@ h1, h2, h3 {
 
 #laboratory .lab-img {
   height: 30rem;
+  background-image: url("/images/home/laboratory.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 #laboratory .lab-text {
@@ -23468,9 +23492,9 @@ h1, h2, h3 {
     }
   }
 
-  @media (min-width: 1280px){
+  @media (min-width: 1440px){
     .sm\:container{
-      max-width: 1280px;
+      max-width: 1440px;
     }
   }
 
@@ -44350,9 +44374,9 @@ h1, h2, h3 {
     }
   }
 
-  @media (min-width: 1280px){
+  @media (min-width: 1440px){
     .md\:container{
-      max-width: 1280px;
+      max-width: 1440px;
     }
   }
 
@@ -65232,9 +65256,9 @@ h1, h2, h3 {
     }
   }
 
-  @media (min-width: 1280px){
+  @media (min-width: 1440px){
     .lg\:container{
-      max-width: 1280px;
+      max-width: 1440px;
     }
   }
 
@@ -86091,7 +86115,7 @@ h1, h2, h3 {
   }
 }
 
-@media (min-width: 1280px){
+@media (min-width: 1440px){
   .xl\:container{
     width: 100%;
   }
@@ -86114,9 +86138,9 @@ h1, h2, h3 {
     }
   }
 
-  @media (min-width: 1280px){
+  @media (min-width: 1440px){
     .xl\:container{
-      max-width: 1280px;
+      max-width: 1440px;
     }
   }
 

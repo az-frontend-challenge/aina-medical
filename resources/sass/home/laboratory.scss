@@ -1,6 +1,11 @@
 #laboratory {
     .lab-img {
         height: 30rem;
+        background-image: url('/images/home/laboratory.jpg');
+        // background-size: contain;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
     }
 
     .lab-text {

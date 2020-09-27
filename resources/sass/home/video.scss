@@ -1,10 +1,10 @@
 #video {
     .footage {
         //! TODO: update this selector
-        height: 22rem !important;
-        img {
-            height: inherit;
-        }
+        // height: 22rem !important;
+        // img {
+        //     height: inherit;
+        // }
         
         &:hover {
             .control-play {

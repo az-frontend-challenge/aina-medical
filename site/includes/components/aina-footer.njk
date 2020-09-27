@@ -4,9 +4,9 @@
 {% import 'components/aina-blog.njk' as ainaBlog %}
 
 <footer class="bg-gray-900 text-gray-200">
-    <div class="mx-32 mt-24">
-        <div class="flex border-b border-gray-800 pb-6">
-            <div class="w-1/4 mr-12">
+    <div class="mx-10 sm:mx-16 md:mx-24 lg:mx-32 mt-24">
+        <div class="lg:flex border-b border-gray-800 pb-6">
+            <div class="lg:w-1/4 lg:mr-12 mb-16">
                 <div class="mb-8">
                     {{ logo.logo('white') }}
                 </div>
@@ -35,7 +35,7 @@
                     </a>
                 </div>
             </div>
-            <div class="w-1/4 mr-12">
+            <div class="lg:w-1/4 lg:mr-12 mb-16">
                 <h3 class="text-gray-200 text-xl mb-8 leading-loose">Latest Tweets</h3>
 
                 {{ social.tweet('@lara_croft', 'Hi there, thank you for writing in. The theme is compatible with PHP 7.2, so please update your that iste, alias ex debitis molestiae a nulla? Alias!…') }}
@@ -44,7 +44,7 @@
 
                 {{ social.tweet('@roublabla', 'Also: You can search for ero nemo itaque praesentium quia aut ad! more information about our new christmas sale at…', '') }}
             </div>
-            <div class="w-1/4 mr-12">
+            <div class="lg:w-1/4 lg:mr-12 mb-16">
                 <h3 class="text-gray-200 text-xl mb-8 leading-loose">Latest Posts</h3>
 
                 {{ ainaBlog.postOverView('/images/blog/post-ov-1.jpg', '4 Ways to Use Virtual Care', 'May 23, 2018') }}
