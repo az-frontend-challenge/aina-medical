@@ -20,19 +20,27 @@
     "aina_main": [
         {
             "label": "Home",
-            "url": "/"
+            "url": "#top"
+        },
+        {
+            "label": "About",
+            "url": "#video"
+        },
+        {
+            "label": "Stats",
+            "url": "#stats"
+        },
+        {
+            "label": "Features",
+            "url": "#features"
+        },
+        {
+            "label": "Laboratory",
+            "url": "#laboratory"
         },
         {
             "label": "Doctors",
-            "url": "#"
-        },
-        {
-            "label": "Blog",
-            "url": "#"
-        },
-        {
-            "label": "Elements",
-            "url": "#"
+            "url": "#team"
         }
     ]
 }

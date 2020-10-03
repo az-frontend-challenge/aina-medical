@@ -2,7 +2,6 @@ import $$ from '@utilities/selectors'
 
 const MobileNav = function MobileNav()
 {
-
     $$.mobileNavToggle.addEventListener('click', function() {
 
         this.classList.toggle('menu-toggle-active')
@@ -20,7 +19,29 @@ const MobileNav = function MobileNav()
 
         }
 
-    })
+    });
+
+    const arr = [...$$.mobileNavElements];
+    arr.forEach( e => {
+        e.addEventListener('click', function() {
+
+            $$.mobileNavToggle.classList.toggle('menu-toggle-active')
+            $$.mobileNav.classList.toggle('menu-visible')
+    
+            // set aria-expanded attribute on menu toggle button
+            if ( $$.mobileNavToggle.getAttribute('aria-expanded') === 'false' )
+            {
+    
+                $$.mobileNavToggle.setAttribute('aria-expanded', 'true')
+    
+            } else {
+    
+                $$.mobileNavToggle.setAttribute('aria-expanded', 'false')
+    
+            }
+    
+        })
+    });
 
 }()
 

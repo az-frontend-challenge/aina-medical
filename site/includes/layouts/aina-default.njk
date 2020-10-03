@@ -23,14 +23,6 @@
         <link rel="stylesheet" href="/css/main.min.css">
     {% endif %}
 
-    {# include scripts #}
-    {# TODO: Move this in body's end #}
-    {% if helpers.environment === "development" %}
-        <script src="/js/main.js" defer></script>
-    {% else %}
-        <script src="/js/main.min.js" defer></script>
-    {% endif %}
-
     {# include social meta tags #}
     {% include "components/social-meta.njk" %}
 
@@ -49,7 +41,7 @@
     {# mobile navigation #}
     {% include "components/aina-nav-mobile.njk" %}
 
-    <div id="wrapper" class="wrapper pb-0 md:pb-0 flex flex-col relative min-h-screen">
+    <div id="wrapper" class="wrapper pb-0 md:pb-0 mt-16 flex flex-col relative min-h-screen">
 
         {# include header #}
         {% include "components/aina-header.njk" %}
@@ -61,6 +53,16 @@
         {% include "components/aina-footer.njk" %}
 
     </div>
+
+    {# include scripts #}
+    {# TODO: Move this in body's end #}
+    {% if helpers.environment === "development" %}
+        <script src="/js/main.js" defer></script>
+        {# <script src="/js/simple-scrollspy.min.js" defer></script> #}
+    {% else %}
+        <script src="/js/main.min.js" defer></script>
+        {# <script src="/js/simple-scrollspy.min.js" defer></script> #}
+    {% endif %}
 
 </body>
 </html>

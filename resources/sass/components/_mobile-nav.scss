@@ -15,7 +15,7 @@ $transition-length: 0.5s;
     &.menu-toggle-active {
 
         .mobile-nav-icon-line {
-            @apply m-0 bg-pink-500;
+            @apply m-0 bg-blue-500;
 
             &:nth-child(1) {
                 transform: rotate(45deg) translateY(3px);
@@ -47,6 +47,10 @@ $transition-length: 0.5s;
             @apply opacity-100;
             transform: translate3d(0, 0, 0);
         }
+    }
+
+    .active {
+        @apply text-blue-800 border-t-4 border-b-4 border-blue-100;
     }
 
     .item {
