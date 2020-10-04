@@ -6,10 +6,24 @@ h1, h2, h3 {
     @apply font-bold leading-tight mt-0 mb-6 text-gray-800;
 }
 
+h1 {
+	@apply text-5xl mb-16;
+}
+
+h2 {
+	@apply text-3xl mb-12;
+}
+
+.heading-line {
+	&::after {
+		@apply block w-12 border-blue-500 border-b-4 pt-6;
+		content: " ";
+	}
+}
+
 .page-title {
 	@apply text-5xl;
 }
-
 // content
 .content {
 
@@ -17,20 +31,13 @@ h1, h2, h3 {
 	p {
 		@apply mb-8;
 
-        // intro paragraph
+		// intro paragraph
 		&:first-child {
 			@apply border-b border-gray-200 text-2xl pb-10 mb-10 font-light leading-snug text-gray-600;
 
 			@screen md {
-                @apply text-3xl;
-            }
+				@apply text-3xl;
+			}
 		}
-    }
-}
-
-.heading-line {
-	&::after {
-		@apply block w-12 border-blue-500 border-b-4 pt-6;
-		content: " ";
 	}
 }

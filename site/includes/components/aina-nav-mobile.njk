@@ -1,6 +1,6 @@
 {% import 'components/aina-logo.njk' as logo %}
 
-<nav id="mobile-nav" class="mobile-nav fixed left-0 top-0 h-screen w-full overflow-y-auto pt-32 bg-white z-50 md:hidden">
+<nav id="mobile-nav" class="mobile-nav fixed left-0 top-0 h-screen w-full overflow-y-auto pt-24 bg-white z-50 md:hidden">
 
     <ul>
 
@@ -20,6 +20,10 @@
 </nav>
 
 <div class="flex flex-col fixed w-full top-0 bg-white z-50  md:hidden">
+    {% import 'components/alert.njk' as alert %}
+    <div class="creditsAlert">
+        {{ alert.alert() }}
+    </div>
     <div class="w-full flex items-center justify-center pt-2">
         {{ logo.logo() }}
     </div>

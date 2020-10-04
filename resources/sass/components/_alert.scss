@@ -1,0 +1,6 @@
+.creditsAlert {
+    @apply transform ease-in-out duration-500;
+    &.non-visible {
+        @apply -mt-20;
+    }
+}
