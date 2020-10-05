@@ -23300,6 +23300,559 @@ nav .active {
   content: "\E92A";
 }
 
+/*
+ 	Flaticon icon font: Flaticon
+ 	Creation date: 13/09/2017 08:07
+ 	*/
+
+@font-face {
+  font-family: "Flaticon";
+
+  src: url("/fonts/flaticons/Flaticon.eot");
+
+  src: url("/fonts/flaticons/Flaticon.eot?#iefix") format("embedded-opentype"), url("/fonts/flaticons/Flaticon.woff") format("woff"), url("/fonts/flaticons/Flaticon.ttf") format("truetype"), url("/fonts/flaticons/Flaticon.svg#Flaticon") format("svg");
+
+  font-weight: normal;
+
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Flaticon";
+
+    src: url("/fonts/flaticons/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^=flaticon-]:before, [class*=" flaticon-"]:before,
+[class^=flaticon-]:after, [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+  font-size: 20px;
+  font-style: normal;
+  margin-left: 20px;
+}
+
+.flaticon-001-briefcase-3:before {
+  content: "\F100";
+}
+
+.flaticon-002-target-1:before {
+  content: "\F101";
+}
+
+.flaticon-003-analytics-1:before {
+  content: "\F102";
+}
+
+.flaticon-004-analytics:before {
+  content: "\F103";
+}
+
+.flaticon-005-smartphone:before {
+  content: "\F104";
+}
+
+.flaticon-006-board-3:before {
+  content: "\F105";
+}
+
+.flaticon-007-online-shopping:before {
+  content: "\F106";
+}
+
+.flaticon-008-megaphone-1:before {
+  content: "\F107";
+}
+
+.flaticon-009-computer-7:before {
+  content: "\F108";
+}
+
+.flaticon-010-medal-3:before {
+  content: "\F109";
+}
+
+.flaticon-011-rocket:before {
+  content: "\F10A";
+}
+
+.flaticon-012-user-3:before {
+  content: "\F10B";
+}
+
+.flaticon-013-folder-1:before {
+  content: "\F10C";
+}
+
+.flaticon-014-calendar:before {
+  content: "\F10D";
+}
+
+.flaticon-015-wallet:before {
+  content: "\F10E";
+}
+
+.flaticon-016-laptop-5:before {
+  content: "\F10F";
+}
+
+.flaticon-017-world-1:before {
+  content: "\F110";
+}
+
+.flaticon-018-bulb-2:before {
+  content: "\F111";
+}
+
+.flaticon-019-bars:before {
+  content: "\F112";
+}
+
+.flaticon-020-world:before {
+  content: "\F113";
+}
+
+.flaticon-021-laptop-4:before {
+  content: "\F114";
+}
+
+.flaticon-022-hierarchical-structure-1:before {
+  content: "\F115";
+}
+
+.flaticon-023-board-2:before {
+  content: "\F116";
+}
+
+.flaticon-024-board-1:before {
+  content: "\F117";
+}
+
+.flaticon-025-cloud-5:before {
+  content: "\F118";
+}
+
+.flaticon-026-magnifying-glass-1:before {
+  content: "\F119";
+}
+
+.flaticon-027-medal-2:before {
+  content: "\F11A";
+}
+
+.flaticon-028-document-5:before {
+  content: "\F11B";
+}
+
+.flaticon-029-flask-1:before {
+  content: "\F11C";
+}
+
+.flaticon-030-computer-6:before {
+  content: "\F11D";
+}
+
+.flaticon-031-mobile-phone-3:before {
+  content: "\F11E";
+}
+
+.flaticon-032-browser-5:before {
+  content: "\F11F";
+}
+
+.flaticon-033-trophy:before {
+  content: "\F120";
+}
+
+.flaticon-034-lock:before {
+  content: "\F121";
+}
+
+.flaticon-035-document-4:before {
+  content: "\F122";
+}
+
+.flaticon-036-medal-1:before {
+  content: "\F123";
+}
+
+.flaticon-037-credit-card:before {
+  content: "\F124";
+}
+
+.flaticon-038-speech-1:before {
+  content: "\F125";
+}
+
+.flaticon-039-cloud-4:before {
+  content: "\F126";
+}
+
+.flaticon-040-laptop-3:before {
+  content: "\F127";
+}
+
+.flaticon-041-computer-5:before {
+  content: "\F128";
+}
+
+.flaticon-042-placeholder:before {
+  content: "\F129";
+}
+
+.flaticon-043-computer-4:before {
+  content: "\F12A";
+}
+
+.flaticon-044-alarm:before {
+  content: "\F12B";
+}
+
+.flaticon-045-monitor-2:before {
+  content: "\F12C";
+}
+
+.flaticon-046-computer-3:before {
+  content: "\F12D";
+}
+
+.flaticon-047-networking:before {
+  content: "\F12E";
+}
+
+.flaticon-048-chat:before {
+  content: "\F12F";
+}
+
+.flaticon-049-clock:before {
+  content: "\F130";
+}
+
+.flaticon-050-flag-1:before {
+  content: "\F131";
+}
+
+.flaticon-051-envelope:before {
+  content: "\F132";
+}
+
+.flaticon-052-dollar:before {
+  content: "\F133";
+}
+
+.flaticon-053-document-3:before {
+  content: "\F134";
+}
+
+.flaticon-054-mobile-phone-2:before {
+  content: "\F135";
+}
+
+.flaticon-055-flask:before {
+  content: "\F136";
+}
+
+.flaticon-056-user-2:before {
+  content: "\F137";
+}
+
+.flaticon-057-speech:before {
+  content: "\F138";
+}
+
+.flaticon-058-bulb-1:before {
+  content: "\F139";
+}
+
+.flaticon-059-mobile-phone-1:before {
+  content: "\F13A";
+}
+
+.flaticon-060-monitor-1:before {
+  content: "\F13B";
+}
+
+.flaticon-061-user-1:before {
+  content: "\F13C";
+}
+
+.flaticon-062-video-player:before {
+  content: "\F13D";
+}
+
+.flaticon-063-curriculum-1:before {
+  content: "\F13E";
+}
+
+.flaticon-064-browser-4:before {
+  content: "\F13F";
+}
+
+.flaticon-065-message:before {
+  content: "\F140";
+}
+
+.flaticon-066-photo:before {
+  content: "\F141";
+}
+
+.flaticon-067-bulb:before {
+  content: "\F142";
+}
+
+.flaticon-068-briefcase-2:before {
+  content: "\F143";
+}
+
+.flaticon-069-cloud-3:before {
+  content: "\F144";
+}
+
+.flaticon-070-megaphone:before {
+  content: "\F145";
+}
+
+.flaticon-071-mobile-phone:before {
+  content: "\F146";
+}
+
+.flaticon-072-computer-2:before {
+  content: "\F147";
+}
+
+.flaticon-073-pen-1:before {
+  content: "\F148";
+}
+
+.flaticon-074-laptop-2:before {
+  content: "\F149";
+}
+
+.flaticon-075-briefcase-1:before {
+  content: "\F14A";
+}
+
+.flaticon-076-curriculum:before {
+  content: "\F14B";
+}
+
+.flaticon-077-briefcase:before {
+  content: "\F14C";
+}
+
+.flaticon-078-gear-1:before {
+  content: "\F14D";
+}
+
+.flaticon-079-certificate:before {
+  content: "\F14E";
+}
+
+.flaticon-080-gear:before {
+  content: "\F14F";
+}
+
+.flaticon-081-medal:before {
+  content: "\F150";
+}
+
+.flaticon-082-stopwatch:before {
+  content: "\F151";
+}
+
+.flaticon-083-folder:before {
+  content: "\F152";
+}
+
+.flaticon-084-location:before {
+  content: "\F153";
+}
+
+.flaticon-085-watch:before {
+  content: "\F154";
+}
+
+.flaticon-086-user:before {
+  content: "\F155";
+}
+
+.flaticon-087-scissors:before {
+  content: "\F156";
+}
+
+.flaticon-088-agenda:before {
+  content: "\F157";
+}
+
+.flaticon-089-mailbox:before {
+  content: "\F158";
+}
+
+.flaticon-090-pen:before {
+  content: "\F159";
+}
+
+.flaticon-091-target:before {
+  content: "\F15A";
+}
+
+.flaticon-092-computer-1:before {
+  content: "\F15B";
+}
+
+.flaticon-093-headphones:before {
+  content: "\F15C";
+}
+
+.flaticon-094-eye:before {
+  content: "\F15D";
+}
+
+.flaticon-095-computer:before {
+  content: "\F15E";
+}
+
+.flaticon-096-tactics:before {
+  content: "\F15F";
+}
+
+.flaticon-097-search:before {
+  content: "\F160";
+}
+
+.flaticon-098-businessman-1:before {
+  content: "\F161";
+}
+
+.flaticon-099-cloud-2:before {
+  content: "\F162";
+}
+
+.flaticon-100-video-conference:before {
+  content: "\F163";
+}
+
+.flaticon-101-laptop-1:before {
+  content: "\F164";
+}
+
+.flaticon-102-curriculum-vitae:before {
+  content: "\F165";
+}
+
+.flaticon-103-upload:before {
+  content: "\F166";
+}
+
+.flaticon-104-browser-3:before {
+  content: "\F167";
+}
+
+.flaticon-105-businessman:before {
+  content: "\F168";
+}
+
+.flaticon-106-share:before {
+  content: "\F169";
+}
+
+.flaticon-107-goal:before {
+  content: "\F16A";
+}
+
+.flaticon-108-board:before {
+  content: "\F16B";
+}
+
+.flaticon-109-browser-2:before {
+  content: "\F16C";
+}
+
+.flaticon-110-magnifying-glass:before {
+  content: "\F16D";
+}
+
+.flaticon-111-whiteboard:before {
+  content: "\F16E";
+}
+
+.flaticon-112-layout:before {
+  content: "\F16F";
+}
+
+.flaticon-113-browser-1:before {
+  content: "\F170";
+}
+
+.flaticon-114-piggy-bank:before {
+  content: "\F171";
+}
+
+.flaticon-115-hierarchical-structure:before {
+  content: "\F172";
+}
+
+.flaticon-116-flag:before {
+  content: "\F173";
+}
+
+.flaticon-117-speaker:before {
+  content: "\F174";
+}
+
+.flaticon-118-cloud-1:before {
+  content: "\F175";
+}
+
+.flaticon-119-document-2:before {
+  content: "\F176";
+}
+
+.flaticon-120-cloud:before {
+  content: "\F177";
+}
+
+.flaticon-121-monitor:before {
+  content: "\F178";
+}
+
+.flaticon-122-laptop:before {
+  content: "\F179";
+}
+
+.flaticon-123-document-1:before {
+  content: "\F17A";
+}
+
+.flaticon-124-exam:before {
+  content: "\F17B";
+}
+
+.flaticon-125-database:before {
+  content: "\F17C";
+}
+
+.flaticon-126-stamp:before {
+  content: "\F17D";
+}
+
+.flaticon-127-globe:before {
+  content: "\F17E";
+}
+
+.flaticon-128-chart:before {
+  content: "\F17F";
+}
+
+.flaticon-129-browser:before {
+  content: "\F180";
+}
+
+.flaticon-130-document:before {
+  content: "\F181";
+}
+
 /* HERO SECTION */
 
 #hero .heading-line::after {
@@ -23386,16 +23939,20 @@ nav .active {
   transition-duration: 300ms;
 }
 
-#services .service-item .feather {
+#services .service-item i[class*=flaticon-] {
   font-weight: 200;
   --bg-opacity: 1;
   background-color: #90cdf4;
   background-color: rgba(144, 205, 244, var(--bg-opacity));
 }
 
-#services .service-item .feather::before {
+#services .service-item i[class*=flaticon-]::before {
   display: block;
-  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.75rem;
+  margin-top: 0;
+  font-size: 4rem;
 }
 
 #services .service-item h3 {

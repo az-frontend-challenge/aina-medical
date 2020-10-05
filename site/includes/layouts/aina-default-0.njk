@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {# TODO: update site.name partial #}
     <title>{% if meta_title %}{{ meta_title }}{% else %}{{ title }}{% endif %} | {{ site.name }}</title>
     <meta name="description" content="{% if meta_description %}{{ meta_description }}{% else %}{{ excerpt }}{% endif %}">
     
@@ -46,7 +45,6 @@
     </div>
 
     {# include scripts #}
-    {# TODO: Move this in body's end #}
     {% if helpers.environment === "development" %}
         <script src="/js/main.js" defer></script>
         {# <script src="/js/simple-scrollspy.min.js" defer></script> #}
