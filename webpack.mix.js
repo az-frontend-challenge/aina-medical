@@ -78,7 +78,8 @@ mix
                     'required',
                     'row',
                     'visually-hidden',
-                    'menu-visible'
+                    'menu-visible',
+                    'non-visible'
                 ]
             })
 
